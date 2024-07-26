@@ -1,0 +1,66 @@
+
+body {
+    background: linear-gradient(to bottom right,  #010101, #ffffff );
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cpfForm {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.cpfForm h2 {
+    text-align: center;
+}
+
+.cpfForm input[type="text"],
+.cpfForm input[type="password"] {
+    width: 48%;
+    padding: 5px;
+    margin: 10px 0;
+    border: none;
+    background-color: #444;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.cpfForm button {
+    width: 20%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: #a04242;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cpfForm button:hover {
+    background-color: #521f1f;
+}
+
+.button {
+    background-color: #333;
+    border: none;
+    color: rgb(136, 135, 135);
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+   
